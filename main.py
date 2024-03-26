@@ -10,7 +10,7 @@ from datetime import datetime
 
 # Configuration
 config = {
-    "mongo_uri": "mongodb://localhost:27017/",
+    "mongo_uri": "mongodb://mongodb:27017/",
     "base_dir": Path(__file__).parent,
     "http_host": '0.0.0.0',
     "http_port": 3000,
